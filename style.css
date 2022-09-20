@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main, .thankyou{
+    background-color: hsl(213, 19%, 18%);
+    height: 300px;
+    width: 375px;
+    border-radius: 20px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+
+.main img{
+    margin-right: 120px;
+    background-color:  hsl(216, 12%, 54%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.aria {
+    color:  white;
+    margin-top: 20px;
+  
+}
+
+p{
+   color:hsl(217, 12%, 63%) ; 
+   margin-top: 20px;
+}
+
+.main ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* border-spacing: 190px; */
+}
+
+
+.main  ul li button{
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:  hsl(213, 20%, 22%);
+    /* color: hsl(217, 12%, 63%); */
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.main  ul li button:hover{
+    background-color:  hsl(25, 97%, 53%);
+
+}
+
+.main  ul li button:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.submitButton, .btnSubmit{
+    height: 40px;
+    width: 320px;
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    text-align: center;
+    border: none;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.thankyou img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.thankyou .btn{
+    background-color:   hsl(213, 20%, 22%);
+    color: hsl(25, 97%, 53%);
+    height: 60px;
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+   margin-left: 60px;
+
+}
+
+.thankyou h1{
+    color:  white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.submitButton:hover, .btnSubmit:hover{
+    background-color:white;
+    color:  hsl(25, 97%, 53%) ;
+}
+
+ .hidden{
+    display: none;
+}
+
+@media screen and (max-width:200px) {
+    .main, .thankyou{
+        background-color: hsl(213, 19%, 18%);
+        height: 200px;
+        width: 250px;
+        border-radius: 20px;
+       
+    }
+}
